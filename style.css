@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=K2D&family=Ms+Madi&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap');
+:root {
+    --heading-primary: 'EB Garamond', serif;
+    --title: 'K2D', sans-serif;
+    --first-Letter: 'Ms Madi', cursive;
+    --description: 'Roboto', sans-serif;
+    --heading-secondary: 'Source Code Pro', monospace;
+}
+
+body {
+    background-color: #E6E6E6;
+}
+
+.container {
+    box-shadow: 2px 2px 10px 5px gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+}
+
+.external-section-one {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #1F1627;
+    clip-path: polygon(0 0%, 100% 0%, 100% 85%, 0% 100%);
+    height: auto;
+}
+
+.internal-section-one {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 2px dotted white;
+    height: 600px;
+}
+
+.logo {
+    width: 300px;
+    height: 55px;
+    background-color: #1F1627;
+    margin-top: -30px;
+}
+
+.logo_text {
+    letter-spacing: 0.2em;
+    font-family: var(--title);
+}
+
+.small-font {
+    font-size: 15px;
+}
+
+.icon {
+    width: 40px;
+}
+
+.start-font {
+    font-size: 150px;
+    letter-spacing: 0.1em;
+    font-family: var(--first-Letter) !important;
+}
+
+.letter_spacing {
+    letter-spacing: 0.4em;
+}
+
+.primary-font {
+    font-family: var(--heading-primary);
+}
+
+.secondary-font {
+    font-family: var(--heading-secondary);
+}
+
+.description-font {
+    font-family: var(--description);
+}
+
+.dotted-border {
+    border-left: 2px dotted white;
+    border-right: 2px dotted white;
+}
+
+.shift-left {
+    margin-left: -250px;
+}
+
+img {
+    width: 70px;
+}
+
+.external-section-two {
+    background-color: #E9E0D7;
+    clip-path: polygon(0 16%, 100% 0%, 100% 85%, 0% 100%);
+    margin-top: -98px;
+}
+
+.internal-section-two {
+    margin-top: -50px;
+    padding-top: 60px;
+    height: 600px;
+}
+
+.external-section-three {
+    background-color: #25192E;
+    clip-path: polygon(0 16%, 100% 0%, 100% 85%, 0% 100%);
+    margin-top: -98px;
+}
+
+.internal-section-three {
+    margin-top: -45px;
+    padding-top: 60px;
+    height: 600px;
+}
+
+.letters {
+    margin-top: 80px;
+}
+
+.external-section-four {
+    background-color: #EDC6CB;
+    clip-path: polygon(0 16%, 100% 0%, 100% 85%, 0% 100%);
+    margin-top: -98px;
+}
+
+.internal-section-four {
+    margin-top: -45px;
+    padding-top: 60px;
+    height: 600px;
+}
+
+.external-section-five {
+    background-color: #F1A0B4;
+    clip-path: polygon(0 16%, 100% 0%, 100% 85%, 0% 100%);
+    margin-top: -98px;
+}
+
+.internal-section-five {
+    margin-top: -45px;
+    padding-top: 60px;
+    height: 600px;
+}
+
+.external-section-six {
+    background-color: #B7BEC5;
+    clip-path: polygon(0 16%, 100% 0%, 100% 85%, 0% 100%);
+    margin-top: -98px;
+}
+
+.internal-section-six {
+    margin-top: -45px;
+    padding-top: 60px;
+    height: 600px;
+}
+
+.desc6 {
+    font-size: 20px;
+    margin-top: -70px;
+}
+
+.external-section-seven {
+    background-color: #FFE6D0;
+    clip-path: polygon(0 16%, 100% 0%, 100% 85%, 0% 100%);
+    margin-top: -98px;
+}
+
+.internal-section-seven {
+    margin-top: -45px;
+    padding-top: 60px;
+    height: 600px;
+}
+
+.desc7 {
+    font-size: 20px;
+    margin-top: -70px;
+}
+
+.external-section-footer {
+    background-color: #DBDCDE;
+    clip-path: polygon(0 16%, 100% 0%, 100% 100%, 0% 100%);
+    margin-top: -98px;
+}
+
+.internal-section-footer {
+    margin-top: 0px;
+    padding-top: 60px;
+    height: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: #979598;
+}
+
+#footer {
+    height: 70px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.faded-font {
+    color: #979598;
+}
+
+@media only screen and (max-width: 600px) {
+    .small-font {
+        font-size: 10px;
+    }
+    .start-font {
+        font-size: 100px;
+        letter-spacing: 0.1em;
+        font-family: var(--first-Letter) !important;
+    }
+    p {
+        word-wrap: break-word;
+        font-size: 1vw;
+        text-align: center;
+    }
+}
